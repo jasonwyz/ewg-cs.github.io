@@ -1,0 +1,485 @@
+.page_BANNER-BAR-DIV {
+  background-color: #fafafa;
+  height: 75px;
+  position: fixed;
+  width: 100vw;
+  z-index: 101;
+}
+
+.page_BANNER-BAR {
+  align-items: center;
+  display: flex;
+  height: 75px;
+  margin: auto;
+  width: 1280px;
+}
+
+.page_MENU-BAR-DIV {
+  background-color: #013155;
+  box-shadow: 0px -25px 20px 15px #000000;
+  height: 35px;
+  margin-top: 75px;
+  position: fixed;
+  width: 100vw;
+  z-index: 100;
+}
+
+.page_MENU-BAR {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  margin: auto;
+  padding-left: 75px;
+  width: 1205px;
+}
+
+.page_MENU-BUTTON {
+  align-items: center;
+  color: white;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  font-size: 0.9em;
+  height: 35px;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.page_MENU-BUTTON:hover {
+  color: #fdea17;
+}
+
+.page_BANNER-DIV {
+  background-color: #103155;
+  height: 500px;
+  overflow: hidden;
+  padding-top: 110px;
+  width: 100vw;
+}
+
+.page_BANNER {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  margin: auto;
+  position: relative;
+  width: 1280px;
+}
+
+.page_BANNER-LOGO {
+  background-image: url("../img/asean-emblem.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 55px;
+  margin: 10px 20px;
+  width: 55px;
+}
+
+.page_BANNER-TITLE {
+  font-family: 'BarlowSemiCondensed-SemiBold';
+  font-size: 1.6em;
+}
+
+.page_BANNER-SUBTITLE {
+  font-family: 'BarlowSemiCondensed';
+  font-size: 0.78em;
+  margin-top: -5px;
+}
+
+.page_SEARCH-BAR {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+
+.page-SEARCH-ICON {
+  background-image: url("../img/icon-search.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.page_SEARCH-BAR-INPUT {
+  background: none;
+  border: none;
+  font-family: 'Barlow-Light';
+  font-size: 16px;
+  margin-right: 20px;
+  outline: none;
+  width: 190px;
+}
+
+.page_LOGIN-BUTTON {
+  align-items: center;
+  background-color: #013155;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  width: 176px;
+}
+
+.page_LOGIN-BUTTON:hover {
+  background-color: #184464;
+}
+
+.page_PROFILE-DIV {
+  align-items: center;
+  border-left: 1px solid #eaeaea;
+  display: flex;
+  padding-left: 20px;
+}
+
+.page_PROFILE-NAME {
+  font-family: 'BarlowSemiCondensed-Bold';
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.page_PROFILE-ICON {
+  background-image: url("../img/icon-profile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 40px;
+  margin-right: 20px;
+  width: 40px;
+}
+
+.page_BANNER-TEXT {
+  color: white;
+  font-family: 'BarlowSemiCondensed-Bold';
+  font-size: 28px;
+  margin-left: 725px;
+  margin-top: 355px;
+  position: absolute;
+}
+
+.page_BANNER-SUBTEXT {
+  color: white;
+  font-size: 18px;
+  margin-left: 725px;
+  margin-top: 395px;
+  position: absolute;
+}
+
+.page_BANNER-OVERLAY {
+  background-color: #103155;
+  box-shadow: 20px 20px 20px #103155;
+  height: 500px;
+  opacity: 0.8;
+  position: absolute;
+  width: 1280px;
+}
+
+.page_BANNER-LOGIN-TEXT {
+  color: white;
+  font-family: 'BarlowSemiCondensed-Bold';
+  font-size: 28px;
+  margin-left: 725px;
+  margin-top: 75px;
+  position: absolute;
+}
+
+.page_BANNER-LOGIN-BOX {
+  background-color: white;
+  margin-left: 725px;
+  margin-top: 125px;
+  position: absolute;
+  width: 327px;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.page_BANNER-LOGIN-INPUT-LABEL {
+  color: #171717;
+  font-family: 'Barlow-Bold';
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.page_BANNER-LOGIN-INPUT {
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  font-family: 'Barlow-Light';
+  font-size: 24px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 5px 10px;
+  width: 305px;
+}
+
+.page-IMAGE-LOCK {
+  background-image: url("../img/icon-padlock.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 400px;
+  margin-left: 510px;
+  margin-top: 44px;
+  opacity: 0.7;
+  position: absolute;
+  transform: rotate(20deg);
+  width: 400px;
+}
+
+.page_CONTENT-DIV {
+  background-color: white;
+  width: 100vw;
+}
+
+.page_CONTENT {
+  margin: auto;
+  padding: 30px 0;
+  width: 1280px;
+  display: flex;
+}
+
+.page_CONTENT-COLUMN {
+  padding: 0 20px;
+}
+
+.page_CONTENT-COLUMN:not(:last-child) {
+  border-right: 1px solid #013155;
+}
+
+.page_CONTENT-COLUMN-TITLE-DIV {
+  display: flex;
+  height: 40px;
+  margin: auto;
+  padding: 30px 20px 0 20px;
+  width: 1240px;
+}
+
+.page_CONTENT-COLUMN-TITLE {
+  font-family: 'BarlowSemiCondensed-Bold';
+  font-size: 28px;
+}
+
+.page_CONTENT-COLUMN-BODY {
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.page_CONTENT-BODY-TITLE {
+  font-family: 'BarlowSemiCondensed';
+  font-size: 26px;
+  margin: 10px 0 20px 0;
+}
+
+.page_CONTENT-BODY {
+  text-align: justify;
+  padding-bottom: 50px;
+}
+
+.page_TABLE-HEADER-ROW {
+  border-bottom: 1px solid #cacaca;
+  color: #171717;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  font-size: 11px;
+}
+
+.page_TABLE-HEADER-CELL {
+  color: #bababa;
+}
+
+.page_TABLE-ROW {
+  align-items: center;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  padding: 10px 0;
+}
+
+.page_TABLE-CELL {
+}
+
+.page_FOOTER-DIV {
+  background-color: #373c4a;
+  color: white;
+  width: 100vw;
+  padding: 50px 0;
+}
+
+.page_FOOTER {
+  margin: auto;
+  padding: 0 20px;
+  width: 1240px;
+}
+
+.page_FOOTER-TITLE {
+  font-family: 'BarlowSemiCondensed-Bold';
+  font-size: 28px;
+}
+
+.page_FOOTER-ROW {
+  display: flex;
+  padding-top: 20px;
+}
+
+.page_FOOTER-COLUMN {
+
+}
+
+.page_FOOTER-LINK {
+  color: #b7b7b7;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.page_FOOTER-LINK:hover {
+  color: white;
+}
+
+.page_FOOTER-SEPARATOR {
+  width: 100%;
+  border-bottom: 1px solid #62656E;
+  margin: 50px 0 10px 0;
+}
+
+.page_FOOTER-FLAG {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 24px;
+  margin-right: 5px;
+  width: 24px;
+}
+
+.page_FOOTER-COPYRIGHT {
+  font-size: 11px;
+  margin-left: auto;
+}
+
+.page_BUTTON {
+  align-items: center;
+  background-color: #013155;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+
+.page_BUTTON:hover {
+  background-color: #184464;
+}
+
+.page_FOLDER-ICON {
+  background-image: url("../img/icon-folder.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 16px;
+  margin-right: 10px;
+  width: 16px;
+}
+
+.page_FILENAME:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.page_CARD-ROW {
+  display: flex;
+  flex-flow: wrap;
+  padding-bottom: 30px;
+}
+
+.page_CARD-DIV {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  height: 332px;
+  overflow: hidden;
+  width: calc((100% - 46px) / 3);
+}
+
+.page_CARD-DIV:not(:nth-child(3)) {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.page_CARD-HEADER {
+  align-items: center;
+  background-color: #d1dae0;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  font-size: 14px;
+  height: 45px;
+  letter-spacing: 1px;
+  line-height: 14px;
+  padding: 0 20px;
+}
+
+.page_CARD-DOC-ICON {
+  background-image: url("../img/icon-doc.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  height: 20px;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.page_CARD-TITLE {
+  font-family: 'Barlow-Medium';
+  font-size: 14px;
+  padding: 20px 20px 10px 20px;
+}
+
+.page_CARD-BODY {
+  font-family: 'Barlow-Bold';
+  font-size: 20px;
+  height: 150px;
+  padding: 0 20px 20px 20px;
+}
+
+.page_CARD-BUTTON {
+  align-items: center;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Barlow-Medium';
+  height: 46px;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  padding: 0 20px;
+}
+
+.page_CARD-BUTTON:hover {
+  background-color: #184464;
+  border: none;
+  color: white;
+  height: 48px;
+}
+
+.page_ARROW-RIGHT {
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #013155;
+  border-top: 8px solid transparent;
+  height: 0;
+  margin-left: auto;
+  margin-right: -28px;;
+  width: 0;
+}
